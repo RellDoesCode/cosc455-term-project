@@ -20,7 +20,7 @@ public class tokenTypes {
 		return switch (type) {
 			case Token.IDENTIFIER -> line + ":" + col + ":'ID' " + value;
 			case Token.INTEGER_LITERAL -> line + ":" + col + ":'NUM' " + value;
-			case Token.EOT -> line + ":" + col + ": 'end-of-text'";
+			case Token.EOT -> line + ":" + col + ":'end-of-text'";
 			default -> line + ":" + col + ":'" + value + "'";
 		};
 	}
