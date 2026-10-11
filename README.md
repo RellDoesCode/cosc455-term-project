@@ -55,7 +55,7 @@ javac textParser.java
 
 ```
 
-java textParser <inputfile>.txt
+java textParser
 
 ```
 
@@ -67,10 +67,17 @@ Please keep in mind that the input files must exist in the same directory if the
 
 ```
 
-java textParser path\to\file\<inputfile>.txt
+Please enter the path to your input file:
+path\to\file\<inputfile>.txt
 
 ```
+OR
+```
 
+Please enter the path to your input file:
+<inputfile>.txt
+
+```
 
 
 ---
