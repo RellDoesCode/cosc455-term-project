@@ -1,39 +1,35 @@
-\# COSC455 Project 1: Lexical Analyzer
+# COSC455 Project 1: Lexical Analyzer
 
 
 
-\## Name: Terrell Beasley
+## Name: Terrell Beasley
 
 
 
-\---
-
-
-
-\## Programming Language
+## Programming Language
 
 
 
 The language that I decided on using for this project is Java version "22.0.2".
 
 
-\## IDE \& Compiler
+## IDE \& Compiler
 
 
 
-\* IDE Used: Java Eclipse IDE
+* IDE Used: Java Eclipse IDE
 
-\* Java Compiler: `javac`
+* Java Compiler: `javac`
 
-\* Java Runtime: `java`
-
-
-
-\## Instructions
+* Java Runtime: `java`
 
 
 
-\### Compiling the Program
+## Instructions
+
+
+
+### Compiling the Program
 
 
 
@@ -53,7 +49,7 @@ javac textParser.java
 
 
 
-\### Execute the Program
+### Execute the Program
 
 
 
@@ -71,21 +67,21 @@ Please keep in mind that the input files must exist in the same directory if the
 
 ```
 
-java textParser path\\to\\file\\<inputfile>.txt
+java textParser path\to\file\<inputfile>.txt
 
 ```
 
 
 
-\---
+---
 
 
 
-\## Program Usage
+## Program Usage
 
 
 
-\### Overview
+### Overview
 
 
 
@@ -93,11 +89,11 @@ This program is a lexical analyzer that reads an input file and converts it into
 
 
 
-\---
+---
 
 
 
-\### Input
+### Input
 
 
 
@@ -105,11 +101,11 @@ The program accepts one command line argument: The name of a text file containin
 
 
 
-\---
+---
 
 
 
-\### Output
+### Output
 
 
 
@@ -117,31 +113,31 @@ The program outputs each detected token from a specified file. When a token is d
 
 
 
-\---
+---
 
 
 
-\### Special Behavior
+### Special Behavior
 
 
 
-\* Whitespace is ignored by the program and is used to separate tokens.
+* Whitespace is ignored by the program and is used to separate tokens.
 
 
 
-\* Comments begin with `//` and continue until the end of the line. Comments are completely ignored by the program.
+* Comments begin with `//` and continue until the end of the line. Comments are completely ignored by the program.
 
 
 
-\* The program always reads the longest possible valid token as per the maximum munch rule.
+* The program always reads the longest possible valid token as per the maximum munch rule.
 
 
 
-\---
+---
 
 
 
-\### Error Handling
+### Error Handling
 
 
 
